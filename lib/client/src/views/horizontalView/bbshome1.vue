@@ -36,7 +36,7 @@
                             icon-placement="left"
                             class="bk-layout-component-omelpinm linkB1c90"
                             @click="(...args) => goToDetail(freeLayout34eeaItem.id, ...args)">
-                            {{`<span>${freeLayout34eeaItem.title}</span>`}}</bk-link>
+                            {{freeLayout34eeaItem.title}}</bk-link>
                     </div>
                     <div style="position: absolute; top: 41.7812px; left: 0px;">
                         <bk-divider
